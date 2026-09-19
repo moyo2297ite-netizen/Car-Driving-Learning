@@ -1,0 +1,10 @@
+/* لمسات على مستوى التطبيق ككل (App.jsx هو أعلى مكوّن، فأي تنسيق عام مكانه هون) */
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+* {
+  scroll-behavior: smooth;
+}
